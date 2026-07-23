@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "noEmit": true,
+    "moduleResolution": "Bundler",
+    "types": ["vite/client"]
+  },
+  "include": ["src"]
+}
