@@ -1,6 +1,6 @@
 {
   "name": "@pixelpet/vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue 3 integration for @pixelpet/core — a pixel-art desktop pet that sits in a corner of the browser and plays a looping idle animation",
   "type": "module",
   "main": "./dist/index.js",
@@ -12,14 +12,22 @@
       "import": "./dist/index.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
     "typecheck": "vue-tsc --noEmit"
   },
-  "keywords": ["vue", "pixel-art", "pet", "desktop-pet", "widget"],
+  "keywords": [
+    "vue",
+    "pixel-art",
+    "pet",
+    "desktop-pet",
+    "widget"
+  ],
   "license": "MIT",
   "author": "omer",
   "repository": {
